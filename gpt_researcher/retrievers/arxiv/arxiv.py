@@ -21,7 +21,7 @@ class ArxivSearch:
         """
         max_retries = 3
         retry_count = 0
-        backoff_factor = 1
+        backoff_factor = 30
 
         while retry_count < max_retries:
             try:
